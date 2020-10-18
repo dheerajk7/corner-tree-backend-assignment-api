@@ -4,26 +4,26 @@ It is a react app for mananging jobs.
 
 # Preview
 
-Link :- https://corner-tree-assignment.web.app/
+Link :-https://dheerajk7.github.io/corner-tree-backend-assignment-reactapp/
 
 ## Desktop View
 
 ### 1.Home
 
-![preview image](./assets/images/1.png)
+![preview image](./assets/images/1.jpg)
 
 ### 2. Search
 
-![preview image](./assets/images/2.png)
-![preview image](./assets/images/3.png)
+![preview image](./assets/images/3.jpg)
+![preview image](./assets/images/4.jpg)
 
 ### 3. Post Job
 
-![preview image](./assets/images/4.png)
+![preview image](./assets/images/2.jpg)
 
 ### 4. Dashboard
 
-![preview image](./assets/images/5.png)
+![preview image](./assets/images/5.jpg)
 
 # Various Functionality
 
@@ -37,13 +37,13 @@ Link :- https://corner-tree-assignment.web.app/
 
 # React App Detail :-
 
-### Repository Link :- https://github.com/dheerajk7/corner-tree-react-app.git
+### Repository Link :-https://github.com/dheerajk7/corner-tree-backend-assignment-reactapp.git
 
-### API Hosted Link :- https://corner-tree-assignment.herokuapp.com/api/v1
+### API Hosted Link :-https://corner-tree-frontend-assignmen.herokuapp.com/api/v1
 
 # Instructions to install
 
-1. Clone this repository from https://github.com/dheerajk7/corner-tree-assignment-api.git .
+1. Clone this repository from https://github.com/dheerajk7/corner-tree-backend-assignment-api.git .
 2. Install NPM if you have not installed yet.
 3. Go to project directory and run these commands
 
@@ -65,7 +65,7 @@ Link :- https://corner-tree-assignment.web.app/
 
 1. /jobs -> To get all the jobs available.
 2. /search/:key -> To search job with location, pincode and skills.
-3. /create-job -> To post new job.
+3. /jobs/create-job -> To post new job.
 
    ```
    Fields Needed to Create Question :-
