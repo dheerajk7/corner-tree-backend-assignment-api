@@ -25,28 +25,7 @@ module.exports.createJob = async function (request, response) {
         .json({ success: false, message: "Error in posting job" });
     }
   } catch (err) {
-    return response.status(500).json({
-      success: false,
-      message: "Internal Server Error",
-    });
-  }
-};
-
-// searching for job with location, pincode and skills
-module.exports.search = async function (request, response) {
-  try {
-    let key = request.params.key.toLowerCase();
-    let jobs = await Job.find({
-      $or: [
-        { pincode: key },
-        { location: key },
-        { core_skills: { $in: [key] } },
-      ],
-    });
-    return response
-      .status(200)
-      .json({ message: "Working", data: { jobs: jobs } });
-  } catch (err) {
+    console.log(err);
     return response.status(500).json({
       success: false,
       message: "Internal Server Error",
